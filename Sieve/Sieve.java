@@ -15,7 +15,7 @@ public class Sieve {
         boolean[] numbers = new boolean[n + 1];
 
         // Start from 2 since we know that all numbers less than 2 are not prime
-        for (int i = 2; i * 1 <= n; i++) {
+        for (int i = 2; i * i <= n; i++) {
             // We start at 2, and mark all multiples of 2 as not prime i.e. set to true
             if (!numbers[i]) {
                 // Mark all as not prime
