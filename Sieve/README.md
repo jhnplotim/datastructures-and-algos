@@ -6,5 +6,5 @@
 - We maintain a boolean array for all numbers we want to check. The array index is equal to the number we are checking, therefore, the array size will be N+1 since the array indices are zero based.
 - If we know that 2 is a prime number, then all multiples of 2 less than our number N will automatically be marked as not prime
 - From investigation, we do NOT need to repeat this check for all N values, instead, we only perform this up to root of N and terminate the loop.
-- See attached video for explanation
+- See video explanation (https://www.youtube.com/watch?v=qBSI8ST15Io&ab_channel=TechVice)
 - Once the loop is terminated, we shall only have primeNumbers left in the array and we can display them.
