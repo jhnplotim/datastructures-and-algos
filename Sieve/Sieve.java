@@ -11,7 +11,7 @@ public class Sieve {
 
         // The array elements will all be initialised as false, which will mean prime for our case
         // if a number is marked as true, then it will be a multiple of another number, hence not prime, we skip it
-        // we repeat up to root of N (See explanation video that has been uploaded)
+        // we repeat up to root of N (https://www.youtube.com/watch?v=qBSI8ST15Io&ab_channel=TechVice)
         boolean[] numbers = new boolean[n + 1];
 
         // Start from 2 since we know that all numbers less than 2 are not prime
