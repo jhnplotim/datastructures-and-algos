@@ -27,7 +27,7 @@ public class SqRoot {
      * Find square root of a number by using binary search since we are basically checking a sorted list of numbers to find the square root
      * @param n Number whose square root is being looked for
      * @param start Left bound of search space
-     * @param end Right bound of search spaffce
+     * @param end Right bound of search space
      * @return Square Root
      */
     public static int squareRootBinarySearch(int n, int start, int end) {
