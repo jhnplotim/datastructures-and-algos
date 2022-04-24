@@ -15,9 +15,10 @@ public class Solution extends GuessGame {
         
         while (low <= high) {
             myGuess = low + (high - low) / 2;
-            if (guess(myGuess) == 0) {
+            int res = guess(myGuess);
+            if (res == 0) {
                 return myGuess;
-            } else if (guess(myGuess) == 1) {
+            } else if (res == 1) {
                 // My guess is lower than the picked number
                 // Search to right of my guess
                 low = myGuess + 1;
