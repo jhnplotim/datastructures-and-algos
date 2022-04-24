@@ -32,7 +32,7 @@ public class Solution {
             mid = start + (end - start) / 2;
             
             if (nums[mid] == target) {
-                if(mid == 0 || nums[mid - 1] != target) {
+                if(mid == start || nums[mid - 1] != target) {
                     return mid;
                 } else {
                     // Search to the left of mid
@@ -58,7 +58,7 @@ public class Solution {
             mid = start + (end - start) / 2;
             
             if (nums[mid] == target) {
-                if(mid == nums.length - 1 || nums[mid + 1] != target) {
+                if(mid == end || nums[mid + 1] != target) {
                     return mid;
                 } else {
                     // Search to the right of mid
