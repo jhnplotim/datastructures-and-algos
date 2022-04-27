@@ -2,6 +2,8 @@ package Array.RotateArray;
 
 public class Solution {
     // Using extra memory
+    // Time complexity O(n)
+    // Space complexity O(n). Extra space used
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         int[] result = new int[n];
