@@ -1,5 +1,7 @@
 package Array.RotateArray;
 
+import java.util.Arrays;
+
 public class Solution {
     // Using extra memory
     // Time complexity O(n)
@@ -19,5 +21,18 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             nums[i] = result[i];
         }
+    }
+
+    public static void main(String[] args) {
+        int[] input = new int[] { 1, 2, 3, 4, 5, 6, 7};
+        int k = 3;
+
+        System.out.println(Arrays.toString(input));
+
+        Solution rotater = new Solution();
+        rotater.rotate(input, k);
+
+        System.out.println(Arrays.toString(input));
+
     }
 }
