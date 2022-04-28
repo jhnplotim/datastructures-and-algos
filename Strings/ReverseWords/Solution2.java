@@ -8,6 +8,8 @@ public class Solution2 {
      * @param s String with words to be reversed
      * @return
      */
+    // Time complexity: O(n), where n is the size of the string
+    // Space complexity: O(n), where n is the size of the string builder used
     public String reverseWords(String s) {
        String[] words = s.split(" ");
        StringBuilder builder = new StringBuilder();
