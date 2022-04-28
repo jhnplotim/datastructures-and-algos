@@ -16,7 +16,6 @@ public class Solution2 {
            builder.append(new StringBuilder(word).reverse() +  " ");
        }
        return builder.toString().trim();
-
     }
     
 }
