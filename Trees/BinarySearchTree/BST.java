@@ -77,7 +77,7 @@ public class BST {
         System.out.print(root.data + " ");
     }
 
-    public void insert(int dataToInsert) {
+    public void insertIntoTree(int dataToInsert) {
         root = insert(root, dataToInsert);
     }
 
