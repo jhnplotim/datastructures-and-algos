@@ -1,5 +1,8 @@
 package DynamicProgramming.Fibonacci.Recursive;
 
+// Find nth number in a Fibonacci sequence (Topdown approach)
+// Space complexity: O(n)
+// Time complexity: O(n)
 public class SolutionFibTopDown {
     public static void main(String[] args) {
         System.out.println(fib(8));

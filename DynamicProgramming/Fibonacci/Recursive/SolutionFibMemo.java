@@ -2,6 +2,9 @@ package DynamicProgramming.Fibonacci.Recursive;
 
 import java.util.Arrays;
 
+// Find nth number in a Fibonacci sequence ( Memoized solution)
+// Space complexity: O(n)
+// Time complexity: O(n)
 public class SolutionFibMemo {
 
     public static void main(String[] args) {
