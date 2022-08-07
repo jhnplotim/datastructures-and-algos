@@ -5,14 +5,14 @@ package DynamicProgramming.Fibonacci.Recursive;
 // Time complexity: O(n)
 public class SolutionFibTopDown {
     public static void main(String[] args) {
-        System.out.println(fib(8));
+        System.out.println(fib(50));
     }
 
-    private static int fib(int n) {
-        Integer[] cache = new Integer[n+1];
-        cache[0] = 0;
-        cache[1] = 1;
-        cache[2] = 1;
+    private static long fib(int n) {
+        Long[] cache = new Long[n+1];
+        cache[0] = 0L;
+        cache[1] = 1L;
+        cache[2] = 1L;
 
         for(int i = 3; i < n + 1; i++) {
             cache[i] = cache[i - 1] + cache[i - 2];

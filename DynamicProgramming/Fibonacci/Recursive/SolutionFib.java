@@ -5,13 +5,13 @@ package DynamicProgramming.Fibonacci.Recursive;
 // Time complexity: O(2 pow n)
 public class SolutionFib {
     public static void main(String[] args) {
-        System.out.println(fib(8));
+        System.out.println(fib(50));
     }
 
-    private static int fib(int n) {
+    private static Long fib(int n) {
         // Base case
         if (n <= 2) {
-            return 1;
+            return 1L;
         }
 
         return fib(n - 1) + fib(n - 2);
