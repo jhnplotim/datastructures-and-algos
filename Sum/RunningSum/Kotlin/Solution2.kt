@@ -1,4 +1,4 @@
-class Solution {
+class Solution2 {
     // O(n) time complexity
     // O(1) space complexity, no new array is created
     fun runningSum(nums: IntArray): IntArray {
